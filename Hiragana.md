@@ -17,3 +17,4 @@ So this row can be written in romaji as **ka**-**ki**-**ku**-**ke**-**ko**.
 There is an exception in し. It is not pronounced "si" (as one would normally expect), but as "shi" ("spelling: she"). So it is written in romaji as **sa**-**shi**-**su**-**se**-**so**.
 ### <font color="#0070c0">たちつてと</font> - "T" related hiragana characters are kinda confusing
 ち is equivalent to "chi" in romaji while つ it's "tsu". Everything else follows the main rules.
+It all would read like this: **ta**-**chi**-**tsu**-**te**-**to**.
