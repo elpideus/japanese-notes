@@ -11,12 +11,8 @@
             "id": "2457e7b2182aa2b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writing & Reading/Scripts/Hiragana.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writing & Reading/Scripts/Hiragana.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writing & Reading/Scripts/Hiragana.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Writing & Reading/Scripts/Hiragana.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,9 +142,9 @@
   },
   "active": "2457e7b2182aa2b2",
   "lastOpenFiles": [
+    "Writing & Reading/Scripts/Hiragana.md",
     "Writing & Reading/Scripts/Katakana.md",
     "Writing & Reading/Scripts/Kanji.md",
-    "Writing & Reading/Scripts/Hiragana.md",
     "Getting Started.md",
     "Writing & Reading/Scripts",
     "Writing & Reading",
