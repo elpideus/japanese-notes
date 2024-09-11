@@ -1,4 +1,4 @@
-
+#writing #reading
 ![[hiragana_chart_by_tofugu.jpg]]
 
 It consists of <font color="#00b050">46 letters</font> and represents Japanese sounds. It is mostly used for grammatical purposes, such as particles and conjugations. It is a good start for learning Japanese, since any [[Kanji]] can be written and read as hiragana (basically splitting it up).
