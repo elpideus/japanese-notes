@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9b5e4f5484f9d2a3",
+        "id": "19de9fdf8a880202",
         "type": "tabs",
         "children": [
           {
-            "id": "bd7a43ad8fe85b86",
+            "id": "a069c402a96d98ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hiragana.md",
+                "file": "Writing/Scripts/Hiragana.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hiragana.md",
+                "file": "Writing/Scripts/Hiragana.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hiragana.md",
+                "file": "Writing/Scripts/Hiragana.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hiragana.md"
+                "file": "Writing/Scripts/Hiragana.md"
               }
             }
           },
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,18 +148,20 @@
       "media-extended:Open media": false
     }
   },
-  "active": "bd7a43ad8fe85b86",
+  "active": "0c66829394421b73",
   "lastOpenFiles": [
-    "Hiragana.md",
     "Getting Started.md",
+    "Writing/Scripts/Hiragana.md",
+    "Writing/Scripts",
+    "Writing",
+    "Writing/Scripts/Kanji.md",
     "assets/hiragana_chart_by_tofugu.jpg",
     "assets",
     "hiragana_chart_by_tofugu.jpg",
     "hiragana_chart_by_tofugu.jpg.md",
     "New folder",
     "Pasted image 20240911015320.png",
-    "Kanji.md",
-    "Katakana.md",
+    "Writing/Scripts/Katakana.md",
     "Hiragana"
   ]
 }
