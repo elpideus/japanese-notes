@@ -23,8 +23,12 @@
             "id": "c5282c41d2e4520a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Getting Started.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -70,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 203.49999618530273
   },
   "right": {
     "id": "ade4a02b3a3ce96b",
@@ -86,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Getting Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Getting Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +129,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Getting Started.md"
+              }
             }
           },
           {
@@ -153,7 +161,7 @@
       "media-extended:Open media": false
     }
   },
-  "active": "0c66829394421b73",
+  "active": "c5282c41d2e4520a",
   "lastOpenFiles": [
     "Writing & Reading/Scripts/Hiragana.md",
     "Writing & Reading/Scripts/Kanji.md",
