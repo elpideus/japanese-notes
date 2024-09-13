@@ -19,3 +19,7 @@ There is an exception in し. It is not pronounced "si" (as one would normally e
 ### <font color="#0070c0">たちつてと</font> - "T" related hiragana characters are kinda confusing
 ち is equivalent to "chi" in romaji while つ it's "tsu". Everything else follows the main rules.
 It all would read like this: **ta**-**chi**-**tsu**-**te**-**to**.
+### <font color="#0070c0">なにぬねの</font> - Hiragana from "N" column
+Plain and simple **na**-**ni**-**nu**-**ne**-**no**.
+### <font color="#0070c0">はひふへほ</font> - HU or FU?
+**ha**-**hi**-**hu**-**he**-**ho**. The pronunciation of ふ is in between hu and fu.

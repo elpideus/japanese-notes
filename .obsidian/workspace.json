@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Writing & Reading/Scripts/Hiragana.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Getting Started.md",
+                "file": "Writing & Reading/Scripts/Hiragana.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Getting Started.md",
+                "file": "Writing & Reading/Scripts/Hiragana.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Getting Started.md"
+                "file": "Writing & Reading/Scripts/Hiragana.md"
               }
             }
           },
@@ -147,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,11 +159,11 @@
       "media-extended:Open media": false
     }
   },
-  "active": "c5282c41d2e4520a",
+  "active": "2457e7b2182aa2b2",
   "lastOpenFiles": [
+    "Getting Started.md",
     "Writing & Reading/Scripts/Hiragana.md",
     "Writing & Reading/Scripts/Kanji.md",
-    "Getting Started.md",
     "Writing & Reading/Scripts/Katakana.md",
     "Writing & Reading/Scripts",
     "Writing & Reading",
