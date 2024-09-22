@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "14b7580f73fc2da9",
+        "id": "ce3311a9c81cb249",
         "type": "tabs",
         "children": [
           {
-            "id": "2457e7b2182aa2b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writing & Reading/Scripts/Hiragana.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5282c41d2e4520a",
+            "id": "c8685b9ac7c9e56f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "89e1f4d884ee2f6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.49999618530273
+    "width": 200
   },
   "right": {
     "id": "ade4a02b3a3ce96b",
@@ -89,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writing & Reading/Scripts/Hiragana.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writing & Reading/Scripts/Hiragana.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writing & Reading/Scripts/Hiragana.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -146,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,12 +161,13 @@
       "media-extended:Open media": false
     }
   },
-  "active": "2457e7b2182aa2b2",
+  "active": "89e1f4d884ee2f6a",
   "lastOpenFiles": [
     "Getting Started.md",
+    "Untitled.md",
     "Writing & Reading/Scripts/Hiragana.md",
-    "Writing & Reading/Scripts/Kanji.md",
     "Writing & Reading/Scripts/Katakana.md",
+    "Writing & Reading/Scripts/Kanji.md",
     "Writing & Reading/Scripts",
     "Writing & Reading",
     "assets/hiragana_chart_by_tofugu.jpg",

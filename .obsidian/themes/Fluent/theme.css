@@ -1,0 +1,421 @@
+.app-container > * > .workspace .workspace-tab-header.is-active {
+  font-weight: 500;
+}
+.app-container > * > .workspace .workspace-tab-header > .workspace-tab-header-inner > * {
+  font-size: 12px;
+}
+
+.app-container > * > .workspace .workspace-split:not(.mod-root) .workspace-tab-container > .workspace-leaf {
+  background: var(--background-secondary) !important;
+}
+
+body.is-focused {
+  --tab-outline-color: var(--tab-outline-color-focused) !important;
+}
+
+body.is-focused.mod-windows .titlebar .titlebar-button {
+  --titlebar-text-color: var(--titlebar-text-color-focused);
+  --background-modifier-hover: var(--fluent-frame-button-background-hover-focused);
+}
+
+body .titlebar .titlebar-button {
+  color: var(--titlebar-text-color);
+}
+
+body.is-focused .app-container > * > .workspace .workspace-ribbon.side-dock-ribbon.mod-left {
+  --ribbon-background: var(--ribbon-background-focused);
+  --ribbon-background-collapsed: var(--ribbon-background-collapsed-focused);
+  border-right-color: var(--tab-outline-color-focused);
+}
+
+.titlebar .titlebar-button {
+  --titlebar-text-color: var(--fluent-frame-button-text);
+  --titlebar-text-color-focused: var(--fluent-frame-button-text-focused);
+  --background-modifier-hover: var(--fluent-frame-button-background-hover);
+}
+
+body.mod-windows .titlebar .titlebar-button.mod-close:hover, body.mod-windows .titlebar .titlebar-button.mod-close:focus {
+  --background-modifier-error: var(--fluent-frame-close-background-hover);
+  color: var(--fluent-frame-close-text-hover) !important;
+}
+
+.app-container > * > .workspace > .mod-root {
+  background: transparent;
+}
+
+.view-header {
+  padding: 0 var(--size-4-3);
+  margin: 0;
+}
+
+body.is-fullscreen {
+  background-color: var(--titlebar-background);
+}
+body.is-fullscreen.is-focused {
+  background-color: var(--titlebar-background-focused);
+}
+
+body.is-fullscreen.is-frameless:not(.is-hidden-frameless) {
+  padding-top: 0;
+}
+
+body {
+  --workspace-background-translucent: transparent;
+}
+
+body.is-translucent:not(.is-fullscreen):not(.is-hidden-frameless) .titlebar {
+  background-color: var(--titlebar-background) !important;
+}
+body.is-translucent:not(.is-fullscreen).is-focused:not(.is-hidden-frameless) .titlebar {
+  background-color: var(--titlebar-background-focused, var(--workspace-background-translucent)) !important;
+}
+body.is-hidden-frameless .titlebar .titlebar-button-container {
+  background-color: transparent !important;
+}
+
+body.is-translucent:not(.is-fullscreen) .app-container > * > .workspace .mod-top .workspace-tab-header-container, body.is-translucent:not(.is-fullscreen) .app-container > * > .workspace .workspace-tab-header-container, body.is-translucent:not(.is-fullscreen) .app-container > * > .workspace .workspace-ribbon.side-dock-ribbon.mod-left::before,
+body.is-translucent:not(.is-fullscreen) .app-container > * > .workspace .workspace-ribbon.side-dock-ribbon.mod-left {
+  background-color: var(--titlebar-background) !important;
+}
+body.is-translucent:not(.is-fullscreen).is-focused .app-container > * > .workspace .mod-top .workspace-tab-header-container, body.is-translucent:not(.is-fullscreen).is-focused .app-container > * > .workspace .workspace-tab-header-container, body.is-translucent:not(.is-fullscreen).is-focused .app-container > * > .workspace .workspace-ribbon.side-dock-ribbon.mod-left::before,
+body.is-translucent:not(.is-fullscreen).is-focused .app-container > * > .workspace .workspace-ribbon.side-dock-ribbon.mod-left {
+  background-color: var(--titlebar-background-focused, var(--workspace-background-translucent)) !important;
+}
+.app-container > * > .workspace .workspace-ribbon.side-dock-ribbon.mod-left {
+  border-right-color: var(--tab-outline-color);
+}
+
+body.is-frameless .titlebar .titlebar-inner > .titlebar-button-container {
+  will-change: background-color;
+  transition: background-color 0.4s ease;
+}
+body.is-frameless .app-container > * > .workspace .mod-top .workspace-tab-header-container, body.is-frameless .app-container > * > .workspace .workspace-tab-header-container, body.is-frameless .app-container > * > .workspace .workspace-ribbon.side-dock-ribbon.mod-left::before {
+  will-change: background-color;
+  transition: background-color 0.4s ease;
+}
+body.is-frameless .app-container > * > .workspace .workspace-ribbon.side-dock-ribbon.mod-left {
+  will-change: background-color;
+  transition: background-color 0.4s ease;
+}
+body.is-frameless:not(.is-hidden-frameless),
+body.is-frameless:not(.is-hidden-frameless) .titlebar {
+  will-change: background-color;
+  transition: background-color 0.4s ease;
+}
+
+.titlebar .titlebar-button-container .titlebar-button {
+  will-change: background-color;
+  transition: background-color 0.2s ease;
+}
+
+.app-container > * > .workspace .workspace-split:not(.mod-root) .workspace-tab-container > .workspace-leaf {
+  will-change: background-color;
+  transition: background-color 0.4s ease;
+}
+
+.app-container > * > .workspace .workspace-split:not(.mod-root) .workspace-tab-container > .workspace-leaf {
+  will-change: background-color;
+  transition: background-color 0.4s ease;
+}
+
+body.mod-windows .titlebar .titlebar-button.mod-minimize, body.mod-windows .titlebar .titlebar-button.mod-maximize, body.mod-windows .titlebar .titlebar-button.mod-close {
+  padding: 0 18px !important;
+}
+
+body.mod-windows.is-hidden-frameless .titlebar .titlebar-button {
+  height: 40px;
+}
+body.mod-windows.is-hidden:not(.is-hidden-frameless) .titlebar .titlebar-button {
+  height: 28px;
+}
+
+body.mod-windows {
+  --frame-right-space: 142px !important;
+}
+
+body.mod-windows .titlebar .titlebar-button {
+  position: relative;
+}
+body.mod-windows .titlebar .titlebar-button.mod-minimize > svg, body.mod-windows .titlebar .titlebar-button.mod-maximize > svg, body.mod-windows .titlebar .titlebar-button.mod-close > svg {
+  visibility: hidden;
+  width: 10px;
+  height: 10px;
+}
+body.mod-windows .titlebar .titlebar-button.mod-minimize::before, body.mod-windows .titlebar .titlebar-button.mod-minimize::after, body.mod-windows .titlebar .titlebar-button.mod-maximize::before, body.mod-windows .titlebar .titlebar-button.mod-maximize::after, body.mod-windows .titlebar .titlebar-button.mod-close::before, body.mod-windows .titlebar .titlebar-button.mod-close::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: calc(50% - 5px);
+  left: 18px;
+  width: 10px;
+  height: 10px;
+  background: currentColor;
+}
+body.mod-windows .titlebar .titlebar-button.mod-minimize::after, body.mod-windows .titlebar .titlebar-button.mod-maximize::after, body.mod-windows .titlebar .titlebar-button.mod-close::after {
+  display: none;
+}
+
+body.mod-windows .titlebar .mod-minimize::before {
+  clip-path: polygon(0 5px, 0 6px, 10px 6px, 10px 5px);
+}
+
+body.mod-windows:not(.is-maximized) .titlebar .mod-maximize::before {
+  clip-path: polygon(0 0, 0 10px, 10px 10px, 10px 0, 0 0, 1px 1px, 9px 1px, 9px 9px, 1px 9px, 1px 1px);
+}
+
+body.mod-windows.is-maximized .titlebar .mod-maximize::before {
+  clip-path: polygon(0 2px, 0 10px, 8px 10px, 8px 2px, 0 2px, 1px 3px, 7px 3px, 7px 9px, 1px 9px, 1px 3px);
+}
+body.mod-windows.is-maximized .titlebar .mod-maximize::after {
+  display: block;
+  clip-path: polygon(2px 3px, 2px 0, 10px 0, 10px 8px, 7px 8px, 7px 8px, 9px 7px, 9px 1px, 3px 1px, 3px 3px);
+}
+
+body.mod-windows .titlebar .mod-close::before {
+  clip-path: polygon(5px 4.5px, 0.5px 0, 0 0.5px, 4.5px 5px, 0 9.5px, 0.5px 10px, 5px 5.5px, 9.5px 10px, 10px 9.5px, 5.5px 5px, 10px 0.5px, 9.5px 0);
+}
+
+.app-container > * > .workspace .workspace-ribbon.side-dock-ribbon.mod-left {
+  margin-top: calc(var(--header-height) - 1px);
+}
+.app-container > * > .workspace .workspace-ribbon.side-dock-ribbon.mod-left::before {
+  border-bottom: none;
+}
+
+.app-container > * > .workspace .workspace-split.mod-root > .workspace-tabs > .workspace-tab-container > .workspace-leaf > .workspace-leaf-content > .view-header,
+.app-container > * > .workspace .workspace-split:not(.mod-root) .workspace-tab-container > .workspace-leaf > .workspace-leaf-content > .view-header,
+.app-container > * > .workspace .workspace-split:not(.mod-root) .workspace-tab-container > .workspace-leaf > .workspace-leaf-content > .nav-header {
+  min-height: var(--fluent-nav-height);
+  height: var(--fluent-nav-height);
+  border-bottom: var(--divider-color) 1px solid;
+  will-change: background-color;
+  transition: background-color 0.4s ease;
+  background: var(--fluent-frame-secondary);
+}
+body.is-focused .app-container > * > .workspace .workspace-split.mod-root > .workspace-tabs > .workspace-tab-container > .workspace-leaf > .workspace-leaf-content > .view-header,
+body.is-focused .app-container > * > .workspace .workspace-split:not(.mod-root) .workspace-tab-container > .workspace-leaf > .workspace-leaf-content > .view-header,
+body.is-focused .app-container > * > .workspace .workspace-split:not(.mod-root) .workspace-tab-container > .workspace-leaf > .workspace-leaf-content > .nav-header {
+  background: var(--fluent-frame-secondary-focused);
+}
+.app-container > * > .workspace .workspace-split.mod-root > .workspace-tabs > .workspace-tab-container > .workspace-leaf > .workspace-leaf-content > .view-header > .view-header-title-container::after {
+  display: none;
+}
+.app-container > * > .workspace .workspace-split:not(.mod-root) .workspace-tab-container > .workspace-leaf > .workspace-leaf-content > .view-header {
+  display: block !important;
+}
+.app-container > * > .workspace .workspace-split:not(.mod-root) .workspace-tab-container > .workspace-leaf > .workspace-leaf-content > .view-header > * {
+  display: none;
+}
+.app-container > * > .workspace .workspace-split.mod-root > .workspace-tabs > .workspace-tab-header-container > .workspace-tab-header-container-inner {
+  --tab-background-active: var(--fluent-frame-secondary);
+}
+.app-container > * > .workspace .workspace-split.mod-root > .workspace-tabs > .workspace-tab-header-container > .workspace-tab-header-container-inner > .workspace-tab-header:not(:hover).is-active {
+  will-change: background-color;
+  transition: background-color 0.4s ease;
+}
+.app-container > * > .workspace .workspace-split.mod-root > .workspace-tabs > .workspace-tab-header-container > .workspace-tab-header-container-inner > .workspace-tab-header:not(:hover).is-active::before, .app-container > * > .workspace .workspace-split.mod-root > .workspace-tabs > .workspace-tab-header-container > .workspace-tab-header-container-inner > .workspace-tab-header:not(:hover).is-active::after {
+  will-change: box-shadow;
+  transition: box-shadow 0.4s ease;
+}
+body.is-focused .app-container > * > .workspace .workspace-split.mod-root > .workspace-tabs > .workspace-tab-header-container > .workspace-tab-header-container-inner {
+  --tab-background-active: var(--fluent-frame-secondary-focused);
+}
+
+body.is-hidden-frameless .app-container > * > .workspace > .workspace-split > .workspace-leaf-resize-handle {
+  clip-path: inset(calc(var(--header-height) + var(--fluent-nav-height)) 0 0 0);
+}
+
+.app-container > * > .workspace .mod-top-left-space .workspace-tab-header.is-active > .workspace-tab-header-inner,
+.app-container > * > .workspace .mod-top-right-space .workspace-tab-header.is-active > .workspace-tab-header-inner {
+  position: relative;
+}
+.app-container > * > .workspace .mod-top-left-space .workspace-tab-header.is-active > .workspace-tab-header-inner::before,
+.app-container > * > .workspace .mod-top-right-space .workspace-tab-header.is-active > .workspace-tab-header-inner::before {
+  content: "";
+  display: block;
+  position: absolute;
+  display: block;
+  border-radius: 0;
+  left: 6px;
+  right: 6px;
+  width: calc(100% - 12px);
+  bottom: 2px;
+  height: 2px;
+  border-radius: 6px;
+  background-color: hsl(var(--color-accent-hsl));
+}
+
+body > .tooltip {
+  --background-modifier-message: var(--fluent-tooltip-border);
+  background: var(--fluent-tooltip-background);
+  border: var(--fluent-tooltip-border) 1px solid;
+  color: var(--fluent-tooltip-text);
+  backdrop-filter: blur(var(--fluent-backdrop-blur));
+}
+
+body > .menu {
+  background: var(--fluent-menu-background);
+  border-color: var(--fluent-menu-border);
+  color: var(--fluent-menu-text);
+  backdrop-filter: blur(var(--fluent-backdrop-blur));
+}
+
+body {
+  --fluent-backdrop-blur: 20px;
+  --fluent-nav-height: 42px;
+  --icon-opacity-hover: var(--icon-opacity);
+}
+
+body.theme-light {
+  --fluent-focus-accent: 217.8823529412deg;
+  --titlebar-background: hsl(var(--fluent-focus-accent), 0%, 95.294%);
+  --titlebar-background-focused: hsl(var(--fluent-focus-accent), 41.5%, 87.3%);
+  --ribbon-background: hsl(var(--fluent-focus-accent), 0%, 95.294%);
+  --ribbon-background-focused: hsl(var(--fluent-focus-accent), 41.5%, 87.3%);
+  --ribbon-background-collapsed: hsl(var(--fluent-focus-accent), 0%, 95.294%);
+  --ribbon-background-collapsed-focused: hsl(var(--fluent-focus-accent), 41.5%, 87.3%);
+  --tab-outline-color: hsl(var(--fluent-focus-accent), 0%, 85.5%);
+  --tab-outline-color-focused: hsl(var(--fluent-focus-accent), 27.5%, 82.2%);
+  --fluent-frame-secondary: hsl(var(--fluent-focus-accent), 0%, 97.25%);
+  --fluent-frame-secondary-focused: hsl(var(--fluent-focus-accent), 26.84%, 96.27%);
+  --fluent-frame-button-text: #929292;
+  --fluent-frame-button-text-hover: ;
+  --fluent-frame-close-text-hover: #ffffff;
+  --fluent-frame-close-background-hover: #c42b1c;
+  --fluent-frame-button-background-hover: rgba(0, 0, 0, 0.0823529412);
+  --fluent-frame-button-background-hover-focused: hsla(
+  	var(--fluent-focus-accent),
+  	95%,
+  	35%,
+  	0.0823529412
+  );
+  --background-secondary: #ffffff;
+  --background-modifier-hover: rgba(0, 0, 0, 0.0509803922);
+  --icon-color: #191919;
+  --icon-color-focused: #191919;
+  --icon-color-hover: #191919;
+  --fluent-tooltip-background: #000;
+  --fluent-tooltip-border: #000;
+  --fluent-tooltip-text: #fff;
+  --fluent-menu-background: rgba(247, 247, 247, 0.7);
+  --fluent-menu-border: #eaeaea;
+  --fluent-menu-text: #000;
+  --tab-text-color: #555555;
+  --tab-text-color-focused: #555555;
+}
+body.theme-light.is-translucent.is-frameless {
+  --titlebar-background: hsl(0deg, 0%, 87.3%);
+  --titlebar-background-focused: hsla(0deg, 0%, 87.3%, 70%);
+}
+body.theme-light:not(.is-frameless) {
+  --titlebar-background-focused: hsl(var(--fluent-focus-accent), 42.85%, 95.294%);
+}
+body.theme-light.is-translucent.is-frameless {
+  --ribbon-background: hsl(0deg, 0%, 87.3%);
+  --ribbon-background-focused: hsla(0deg, 0%, 87.3%, 70%);
+}
+body.theme-light:not(.is-frameless) {
+  --ribbon-background-focused: hsl(var(--fluent-focus-accent), 42.85%, 95.294%);
+}
+body.theme-light.is-translucent.is-frameless {
+  --ribbon-background-collapsed: hsl(0deg, 0%, 87.3%);
+  --ribbon-background-collapsed-focused: hsla(0deg, 0%, 87.3%, 70%);
+}
+body.theme-light:not(.is-frameless) {
+  --ribbon-background-collapsed-focused: hsl(var(--fluent-focus-accent), 42.85%, 95.294%);
+}
+body.theme-light.is-translucent.is-frameless {
+  --tab-outline-color: hsl(0deg, 0%, 82.2%);
+  --tab-outline-color-focused: hsla(0deg, 0%, 82.2%, 70%);
+}
+body.theme-light:not(.is-frameless) {
+  --tab-outline-color-focused: hsl(var(--fluent-focus-accent), 0%, 85.5%);
+}
+body.theme-light.is-translucent:not(.is-frameless) {
+  --titlebar-background: #ffffff;
+  --titlebar-background-focused: #ffffff;
+}
+body.theme-light:not(.is-frameless) {
+  --fluent-frame-secondary-focused: hsl(var(--fluent-focus-accent), 0%, 97.25%);
+}
+body.theme-light.is-translucent {
+  --fluent-frame-button-background-hover-focused: rgba(0, 0, 0, 0.0823529412);
+}
+
+body.theme-dark {
+  --fluent-focus-accent: 217.8823529412deg;
+  --titlebar-background: hsl(var(--fluent-focus-accent), 0%, 13.72%);
+  --titlebar-background-focused: hsl(var(--fluent-focus-accent), 100%, 6.27%);
+  --ribbon-background: hsl(var(--fluent-focus-accent), 0%, 13.72%);
+  --ribbon-background-focused: hsl(var(--fluent-focus-accent), 100%, 6.27%);
+  --ribbon-background-collapsed: hsl(var(--fluent-focus-accent), 0%, 13.72%);
+  --ribbon-background-collapsed-focused: hsl(var(--fluent-focus-accent), 100%, 6.27%);
+  --tab-outline-color: hsl(var(--fluent-focus-accent), 0%, 11.37%);
+  --tab-outline-color-focused: hsl(var(--fluent-focus-accent), 100%, 6.08%);
+  --fluent-frame-secondary: hsl(var(--fluent-focus-accent), 0%, 17.25%);
+  --fluent-frame-secondary-focused: hsl(var(--fluent-focus-accent), 10.71%, 15.73%);
+  --fluent-frame-button-text: #929292;
+  --fluent-frame-button-text-hover: ;
+  --fluent-frame-close-text-hover: #ffffff;
+  --fluent-frame-close-background-hover: #c42b1c;
+  --fluent-frame-button-background-hover: rgba(255, 255, 255, 0.0823529412);
+  --fluent-frame-button-background-hover-focused: hsla(
+  	var(--fluent-focus-accent),
+  	95%,
+  	35%,
+  	0.0823529412
+  );
+  --background-secondary: #1e1e1e;
+  --background-modifier-hover: rgba(255, 255, 255, 0.0509803922);
+  --icon-color: #e8eaed;
+  --icon-color-focused: #e8eaed;
+  --icon-color-hover: #e8eaed;
+  --fluent-tooltip-background: #171717;
+  --fluent-tooltip-border: #171717;
+  --fluent-tooltip-text: #dcdcdc;
+  --fluent-menu-background: rgba(42, 42, 42, 0.7);
+  --fluent-menu-border: #3c3c3c;
+  --fluent-menu-text: #e2e2e2;
+  --tab-text-color: #cccccc;
+  --tab-text-color-focused: #cccccc;
+}
+body.theme-dark.is-translucent.is-frameless {
+  --titlebar-background: hsl(0deg, 0%, 6.27%);
+  --titlebar-background-focused: hsla(0deg, 0%, 6.27%, 70%);
+}
+body.theme-dark:not(.is-frameless) {
+  --titlebar-background-focused: hsl(var(--fluent-focus-accent), 42.85%, 13.72%);
+}
+body.theme-dark.is-translucent.is-frameless {
+  --ribbon-background: hsl(0deg, 0%, 6.27%);
+  --ribbon-background-focused: hsla(0deg, 0%, 6.27%, 70%);
+}
+body.theme-dark:not(.is-frameless) {
+  --ribbon-background-focused: hsl(var(--fluent-focus-accent), 42.85%, 13.72%);
+}
+body.theme-dark.is-translucent.is-frameless {
+  --ribbon-background-collapsed: hsl(0deg, 0%, 6.27%);
+  --ribbon-background-collapsed-focused: hsla(0deg, 0%, 6.27%, 70%);
+}
+body.theme-dark:not(.is-frameless) {
+  --ribbon-background-collapsed-focused: hsl(var(--fluent-focus-accent), 42.85%, 13.72%);
+}
+body.theme-dark.is-translucent.is-frameless {
+  --tab-outline-color: hsl(0deg, 0%, 6.08%);
+  --tab-outline-color-focused: hsla(0deg, 0%, 6.08%, 70%);
+}
+body.theme-dark:not(.is-frameless) {
+  --tab-outline-color-focused: hsl(var(--fluent-focus-accent), 0%, 11.37%);
+}
+body.theme-dark.is-translucent:not(.is-frameless) {
+  --titlebar-background: #202020;
+  --titlebar-background-focused: #202020;
+}
+body.theme-dark:not(.is-frameless) {
+  --fluent-frame-secondary-focused: hsl(var(--fluent-focus-accent), 0%, 17.25%);
+}
+body.theme-dark.is-translucent {
+  --fluent-frame-button-background-hover-focused: rgba(255, 255, 255, 0.0823529412);
+}
+
+/*# sourceMappingURL=theme.css.map */
